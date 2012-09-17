@@ -14,6 +14,9 @@ $(call inherit-product, vendor/osr/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
+#Add Google apps
+$(call inherit-product, vendor/google/full.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9300
 PRODUCT_NAME := osr_i9300
