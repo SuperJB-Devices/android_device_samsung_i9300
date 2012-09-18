@@ -6,16 +6,24 @@ PRODUCT_RELEASE_NAME := i9300
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_WIDTH := 800
 
-# Inherit some common CM stuff.
+# Inherit some common OSR stuff.
 $(call inherit-product, vendor/osr/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
-#Add Google apps
-$(call inherit-product, vendor/google/full.mk)
+# Add Google apps
+$(call inherit-product, vendor/google/minimal.mk)
+#$(call inherit-product, vendor/google/products/ears_support.mk)
+$(call inherit-product, vendor/google/products/tts_support.mk)
+$(call inherit-product, vendor/google/products/maps_support.mk)
+$(call inherit-product, vendor/google/products/facelock_support.mk)
+$(call inherit-product, vendor/google/products/youtube_support.mk)
+
+# Addons personal (call files from vendor/osr/prebuilt/app)
+$(call inherit-product, vendor/osr/addons/superatmel.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9300
