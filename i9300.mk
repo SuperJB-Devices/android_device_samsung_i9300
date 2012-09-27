@@ -94,20 +94,6 @@ PRODUCT_PACKAGES += \
     nfc.exynos4 \
     lights.exynos4
 
-#    libgralloc_ump \
-#    libhwconverter \
-#    libfimg \
-#    hwcomposer.exynos4
-#    libhwjpeg \
-#    libhdmi \
-#    libfimc \
-#    libcec \
-#    libddc \
-#    libedid \
-#    libhdmiclient \
-#    libTVOut
-#    libtinyalsa \
-
 # NFC
 PRODUCT_PACKAGES += \
     libnfc \
