@@ -31,7 +31,6 @@ adb pull /system/bin/bcm4334_semcosh.hcd ../../../vendor/$MANUFACTURER/$DEVICE/p
 adb pull /system/bin/bintvoutservice ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/bintvoutservice
 adb pull /system/bin/gps.cer ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/gps.cer
 adb pull /system/bin/gpsd ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/gpsd
-adb pull /system/bin/hostapd ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/hostapd
 adb pull /system/bin/lpmkey ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/lpmkey
 adb pull /system/bin/playlpm ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/playlpm
 adb pull /system/bin/rild ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/rild
@@ -39,16 +38,9 @@ adb pull /system/cameradata/datapattern_420sp.yuv ../../../vendor/$MANUFACTURER/
 adb pull /system/cameradata/datapattern_front_420sp.yuv ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/cameradata/datapattern_front_420sp.yuv
 adb pull /system/etc/firmware/RS_M9MO.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/firmware/RS_M9MO.bin
 adb pull /system/etc/srm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/srm.bin
-adb pull /system/etc/wifi/bcmdhd_apsta.bin_b1 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_apsta.bin_b1
 adb pull /system/etc/wifi/bcmdhd_apsta.bin_b2 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_apsta.bin_b2
-adb pull /system/etc/wifi/bcmdhd_mfg.bin_b0 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b0
-adb pull /system/etc/wifi/bcmdhd_mfg.bin_b1 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b1
 adb pull /system/etc/wifi/bcmdhd_mfg.bin_b2 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b2
-adb pull /system/etc/wifi/bcmdhd_p2p.bin_b0 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b0
-adb pull /system/etc/wifi/bcmdhd_p2p.bin_b1 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b1
 adb pull /system/etc/wifi/bcmdhd_p2p.bin_b2 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b2
-adb pull /system/etc/wifi/bcmdhd_sta.bin_b0 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_sta.bin_b0
-adb pull /system/etc/wifi/bcmdhd_sta.bin_b1 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_sta.bin_b1
 adb pull /system/etc/wifi/bcmdhd_sta.bin_b2 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/bcmdhd_sta.bin_b2
 adb pull /system/etc/wifi/nvram_mfg.txt ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/nvram_mfg.txt
 adb pull /system/etc/wifi/nvram_mfg.txt_murata ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/etc/wifi/nvram_mfg.txt_murata
@@ -71,6 +63,7 @@ adb pull /system/lib/hw/sensors.smdk4x12.so ../../../vendor/$MANUFACTURER/$DEVIC
 adb pull /system/lib/libMali.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libMali.so
 adb pull /system/lib/libMcClient.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libMcClient.so
 adb pull /system/lib/libMcRegistry.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libMcRegistry.so
+adb pull /system/lib/libMcVersion.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libMcVersion.so
 adb pull /system/lib/libQmageDecoder.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libQmageDecoder.so
 adb pull /system/lib/libTVOut.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libTVOut.so
 adb pull /system/lib/libUMP.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libUMP.so
@@ -84,11 +77,12 @@ adb pull /system/lib/libhdmi.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietar
 adb pull /system/lib/libhdmiclient.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libhdmiclient.so
 adb pull /system/lib/libhwconverter.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libhwconverter.so
 adb pull /system/lib/libhwjpeg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libhwjpeg.so
-adb pull /system/lib/libion.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libion.so
+adb pull /system/lib/libsecion.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libsecion.so
 adb pull /system/lib/libquramimagecodec.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libquramimagecodec.so
 adb pull /system/lib/libril.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libril.so
 adb pull /system/lib/libsec-ril.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libsec-ril.so
 adb pull /system/lib/libsecnativefeature.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libsecnativefeature.so
+adb pull /system/lib/libsync.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libsync.so
 adb pull /system/lib/libtvout_jni.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libtvout_jni.so
 adb pull /system/lib/libtvoutinterface.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libtvoutinterface.so
 adb pull /system/lib/libtvoutservice.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libtvoutservice.so
@@ -137,9 +131,7 @@ adb pull /system/usr/keylayout/Vendor_054c_Product_0268.kl ../../../vendor/$MANU
 adb pull /system/usr/keylayout/Vendor_05ac_Product_0239.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/Vendor_05ac_Product_0239.kl
 adb pull /system/usr/keylayout/Vendor_22b8_Product_093d.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/Vendor_22b8_Product_093d.kl
 adb pull /system/usr/keylayout/gpio-keys.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/gpio-keys.kl
-adb pull /system/usr/keylayout/max77693-muic.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/max77693-muic.kl
 adb pull /system/usr/keylayout/qwerty.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/qwerty.kl
-adb pull /system/usr/keylayout/samsung-keypad.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/samsung-keypad.kl
 adb pull /system/usr/keylayout/sec_touchkey.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/sec_touchkey.kl
 adb pull /system/usr/keylayout/sii9234_rcp.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/sii9234_rcp.kl
 adb pull /system/vendor/firmware/SlimISP_GD.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/vendor/firmware/SlimISP_GD.bin
@@ -183,7 +175,6 @@ PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/bin/bintvoutservice:system/bin/bintvoutservice \\
     \$(LOCAL_PATH)/proprietary/system/bin/gps.cer:system/bin/gps.cer \\
     \$(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \\
-    \$(LOCAL_PATH)/proprietary/system/bin/hostapd:system/bin/hostapd \\
     \$(LOCAL_PATH)/proprietary/system/bin/lpmkey:system/bin/lpmkey \\
     \$(LOCAL_PATH)/proprietary/system/bin/playlpm:system/bin/playlpm \\
     \$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild
@@ -196,16 +187,9 @@ PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/etc/firmware/RS_M9MO.bin:system/etc/firmware/RS_M9MO.bin
 
 PRODUCT_COPY_FILES += \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \\
     \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b0:system/etc/wifi/bcmdhd_mfg.bin_b0 \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b1:system/etc/wifi/bcmdhd_mfg.bin_b1 \\
     \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b0:system/etc/wifi/bcmdhd_p2p.bin_b0 \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b1:system/etc/wifi/bcmdhd_p2p.bin_b1 \\
     \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_sta.bin_b0:system/etc/wifi/bcmdhd_sta.bin_b0 \\
-    \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_sta.bin_b1:system/etc/wifi/bcmdhd_sta.bin_b1 \\
     \$(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \\
     \$(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \\
     \$(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \\
@@ -235,10 +219,12 @@ PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \\
-    \$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \\
+    \$(LOCAL_PATH)/proprietary/system/lib/libsecion.so:system/lib/libsecion.so \\
+    \$(LOCAL_PATH)/proprietary/system/lib/libsync.so:system/lib/libsync.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libMali.so:system/lib/libMali.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libMcClient.so:system/lib/libMcClient.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libMcRegistry.so:system/lib/libMcRegistry.so \\
+    \$(LOCAL_PATH)/proprietary/system/lib/libMcVersion.so:system/lib/libMcVersion.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libUMP.so:system/lib/libUMP.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/libvdis.so:system/lib/libvdis.so \\
@@ -300,9 +286,7 @@ PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \\
-    \$(LOCAL_PATH)/proprietary/system/usr/keylayout/max77693-muic.kl:system/usr/keylayout/max77693-muic.kl \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \\
-    \$(LOCAL_PATH)/proprietary/system/usr/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \\
     \$(LOCAL_PATH)/proprietary/system/usr/keylayout/Vendor_04e8_Product_7021.kl:system/usr/keylayout/Vendor_04e8_Product_7021.kl \\
@@ -377,7 +361,7 @@ include \$(BUILD_PREBUILT)
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libsecion
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libion.so
+LOCAL_SRC_FILES := system/lib/libsecion.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
