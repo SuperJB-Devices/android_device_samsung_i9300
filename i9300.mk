@@ -80,10 +80,13 @@ PRODUCT_PACKAGES := \
     audio.usb.default \
     camera.exynos4 \
     Camera \
+    Gallery \
+    Stk \
     com.android.future.usb.accessory \
     GalaxyS3Settings \
     libsecril-client \
     libsecril-client-sap \
+    libsync \
     macloader \
     SamsungServiceMode \
     tinymix \
