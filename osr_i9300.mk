@@ -16,9 +16,10 @@ $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
 # Add Google apps
 $(call inherit-product, vendor/google/minimal.mk)
-#$(call inherit-product, vendor/google/products/ears_support.mk)
-$(call inherit-product, vendor/google/products/tts_support.mk)
+$(call inherit-product, vendor/google/products/ears_support.mk)
+#$(call inherit-product, vendor/google/products/tts_support.mk)
 $(call inherit-product, vendor/google/products/maps_support.mk)
+$(call inherit-product, vendor/google/products/music_support.mk)
 $(call inherit-product, vendor/google/products/facelock_support.mk)
 $(call inherit-product, vendor/google/products/youtube_support.mk)
 
