@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="default_toggles">
+        <item>@string/wifi</item>
+        <item>@string/bt</item>
+        <item>@string/gps</item>
+        <item>@string/network</item>
+        <item>@string/data</item>
+        <item>@string/rotate</item>
+</string-array>
+</resources>

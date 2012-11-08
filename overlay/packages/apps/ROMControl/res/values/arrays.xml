@@ -16,7 +16,6 @@
 		<item>TETHER</item>
 		<item>TORCH</item>
 		<item>NFC</item>
-                <item>SWAGGER</item>
 	</string-array>
 
 	<string-array name="available_toggles_values">
@@ -34,7 +33,6 @@
 		<item>@string/toggle_usb_tether</item>
 		<item>@string/toggle_torch</item>
 		<item>@string/toggle_nfc</item>
-                <item>@string/toggle_swagger</item>
 	</string-array>
 
         <string-array name="navigation_bar_qty_entries">
