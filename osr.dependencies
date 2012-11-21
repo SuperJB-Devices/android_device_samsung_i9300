@@ -15,6 +15,11 @@
         "branch": "jellybean"
     },
     {
+        "repository": "CyanogenMod/android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+        "branch": "jellybean"
+    },
+    {
         "repository": "SuperJB-Vendor/android_vendor_samsung_i9300",
         "target_path": "vendor/samsung/i9300",
         "branch": "jellybean"
