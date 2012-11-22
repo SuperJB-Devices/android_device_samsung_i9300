@@ -10,6 +10,11 @@
         "branch": "jellybean"
     },
     {
+        "repository": "SuperJB/android_packages_apps_Torch",
+        "target_path": "android_packages/apps/Torch",
+        "branch": "jellybean"
+    },
+    {
         "repository": "SuperJB-Devices/android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
         "branch": "jellybean"
