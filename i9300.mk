@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
     GalaxyS3Settings \
     libsecril-client \
     libsecril-client-sap \
-    SamsungServiceMode
+    SamsungServiceMode \
+    Torch
 
 # NFC
 PRODUCT_PACKAGES += \
