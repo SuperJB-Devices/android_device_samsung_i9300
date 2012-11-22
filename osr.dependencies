@@ -10,7 +10,7 @@
         "branch": "jellybean"
     },
     {
-        "repository": "android_device_samsung_smdk4412-common",
+        "repository": "SuperJB-Device/android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
         "branch": "jellybean"
     },
