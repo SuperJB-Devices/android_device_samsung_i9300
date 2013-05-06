@@ -1,8 +1,13 @@
 [
     {
-        "repository": "SuperJB-Kernel/android_kernel_samsung_smdk4412",
+        "repository": "CyanogenMod/android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+        "branch": "cm-10.1"
+    },
+    {
+        "repository": "CyanogenMod/android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "branch": "jellybean"
+        "branch": "cm-10.1"
     },
     {
         "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
@@ -10,23 +15,18 @@
         "branch": "cm-10.1"
     },
     {
-        "repository": "SuperJB/android_packages_apps_Torch",
-        "target_path": "android_packages/apps/Torch",
-        "branch": "jellybean"
+        "repository": "CyanogenMod/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "cm-10.1"
     },
     {
-        "repository": "SuperJB-Devices/android_device_samsung_smdk4412-common",
-        "target_path": "device/samsung/smdk4412-common",
-        "branch": "jellybean"
-    },
-    {
-        "repository": "SuperJB-Vendor/android_vendor_samsung_smdk4412-common",
-        "target_path": "vendor/samsung/smdk4412-common",
-        "branch": "jellybean"
-    },
-    {
-        "repository": "SuperJB-Vendor/android_vendor_samsung_i9300",
+        "repository": "SuperOSR/android_vendor_samsung_i9300",
         "target_path": "vendor/samsung/i9300",
+        "branch": "jellybean"
+    },
+    {
+        "repository": "SuperOSR/android_vendor_samsung_smdk4412-common",
+        "target_path": "vendor/samsung/smdk4412-common",
         "branch": "jellybean"
     }
 ]
